@@ -168,7 +168,7 @@ def handle_photo():
     #         list_info[-1]['arr']['type'].append('image')
     # list_info.reverse()
     final_dict = {"photos":photo_info,"imageList":img_info}
-    with open("../data.json","w") as fp:
+    with open("../themes/xiaoy/source/data.json","w") as fp:
         json.dump(final_dict, fp)
 
 
